@@ -4,21 +4,30 @@
   margin: 0px;
 }
 
+/* RESET END */
+
+/* ====================================================================== */
+
 /* COMMON */
+
 .margin-top {
   margin-top: 20px;
 }
+
 /* COMMON END*/
+
+/* ====================================================================== */
 
 /* HEADER */
 
 header {
   background-color: #639ff8;
   background-image: url(../img/pattern.png);
+  background-size: 400px;
 }
 
 .logo {
-  margin-top: 20px;
+  margin: 20 0 10 0;
   height: 50px;
 }
 
@@ -26,23 +35,16 @@ header {
   width: 75%;
   margin: auto;
 }
+
 /* HEADER END */
+
+/* ====================================================================== */
 
 /* MAIN */
 
-.heading-image-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.heading-image-column {
-  flex: 50%;
-  max-width: 50%;
-}
-
 .heading-image-caption {
   margin-top: 5px;
-  text-size: 6px;
+  font-size: 10px;
 }
 
 .sub-heading {
@@ -61,7 +63,7 @@ p span {
   background-color: #f8f363;
 }
 
-.table-third-column {
+.column {
   width: 50%;
 }
 
@@ -69,16 +71,44 @@ th {
   background-color: #639ff8;
   color: white;
   text-align: left;
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+}
+
+ul {
+  padding: 0;
 }
 
 .odd-row {
   background-color: lightblue;
-  color: darkblue;
 }
 
-th,
-td {
-  padding: 0px;
-}
 
 /* MAIN END */
+
+/* ====================================================================== */
+
+/* FOOTER */
+
+footer h2 {
+  color: darkgrey;
+}
+
+.footer-image-square {
+  position: relative;
+  text-align: left
+}
+
+.footer-image-square-text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 30;
+  font-weight: bolder;
+  color: white;
+}
+
+/* FOOTER END */
