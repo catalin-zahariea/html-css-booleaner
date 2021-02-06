@@ -4,6 +4,26 @@
   margin: 0px;
 }
 
+main {
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #1D3557;
+  font-family: "Oswald", sans-serif;
+  font-stretch: condensed;
+  font-weight: bold;
+}
+
+h2 {
+  color: #E63946;
+  font-family: "Oswald", sans-serif;
+  font-stretch: condensed;
+  font-weight: bold;
+}
+
 /* RESET END */
 
 /* ====================================================================== */
@@ -21,7 +41,7 @@
 /* HEADER */
 
 header {
-  background-color: #D55B47;
+  background-color: #E63946;
   background-size: 400px;
 }
 
@@ -38,3 +58,108 @@ header {
 /* HEADER END */
 
 /* ====================================================================== */
+
+/* MAIN */
+
+.heading-image-layout{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 2px;
+}
+
+.heading-image-cell {
+  display: table-cell;
+  width: 100%;
+}
+
+.heading-image-cell-img {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.heading-image-caption {
+  color: #1D3557;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.sub-heading {
+  color: #1D3557;
+}
+
+.date-heading {
+  color: #1D3557;
+}
+
+.sub-heading span {
+  color: #E63946;
+}
+
+p span {
+  background-image: linear-gradient(-100deg, rgba(168, 218, 220, 0), #A8DADC, rgba(168, 218, 220, 0));
+  padding: 0 5 0 5;
+}
+
+.column {
+  width: 60%;
+}
+
+
+th {
+  background-color: #1D3557;
+  color: white;
+  text-align: left;
+  padding: 5px;
+  font-weight: lighter;
+  padding: 10 0 10 10;
+}
+
+td {
+  padding: 5px;
+  color: #1D3557;
+  font-weight: 100;
+  padding: 10 0 10 10;
+  vertical-align: top;
+  text-align: left;
+}
+
+ul {
+  list-style: circle;
+  list-style-position: outside;
+  padding: 20;
+}
+
+.odd-row {
+  background-color: #A8DADC;
+  color: white;
+  font-weight: 100;
+}
+
+
+/* MAIN END */
+
+/* ====================================================================== */
+
+/* FOOTER */
+
+.footer-image-square {
+  position: relative;
+  text-align: left
+}
+
+.footer-image-square-text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-family: "Oswald", sans-serif;
+  font-size: 30;
+  font-weight: bolder;
+  color: #E63946;
+  padding: 2 10 2 10;
+  background-color: rgba(241, 250, 238, 0.5);
+  border-radius: 30px;
+}
+
+/* FOOTER END */
