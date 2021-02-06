@@ -42,6 +42,24 @@ header {
 
 /* MAIN */
 
+.heading-image-layout{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 2px;
+}
+
+.heading-image-cell {
+  display: table-cell;
+  width: 100%;
+}
+
+.heading-image-cell-img {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
 .heading-image-caption {
   margin-top: 5px;
   font-size: 10px;
@@ -79,7 +97,7 @@ td {
 }
 
 ul {
-  padding: 0;
+  padding: 20px;
 }
 
 .odd-row {

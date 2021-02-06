@@ -19,22 +19,40 @@
     <main>
       <!-- Heading -->
       <div class="container">
-        <h1 class="margin-top">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+
+        <h1 class="margin-top">
+          Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee
+        </h1>
+
         <div class="sub-heading">Scritto da <span>The Booleaner</span></div>
+
         <div class="date-heading">il 10/10/2020</div>
 
-        <div class="margin-top">
-          <img src="img/tim-1.jpg" alt="Tim 1" />
-          <img src="img/tim-2.jpg" alt="Tim 2" />
-        </div>
 
-          <div class="heading-image-caption">
-            1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
-            <br />
-            2nd Photo: Wikimedia, by Paul Clarke
+        <!-- Ho creato un layout a tabella di una riga. In questo modo le immagini sono
+            responsive scalando l'altezza in base alla larghezza (width:100%; height:25vw;)
+            e sono libero di aggiungere in qualsiasi momento altre immagini mantenendo la
+            riga e la proprietà responsive -->
+
+        <div class="heading-image-layout margin-top">
+
+          <div class="heading-image-cell">
+            <img class="heading-image-cell-img" src="img/tim-1.jpg" alt="Tim 1" />
+          </div>
+
+          <div class="heading-image-cell">
+            <img class="heading-image-cell-img" src="img/tim-2.jpg" alt="Tim 2" />
           </div>
 
         </div>
+
+        <div class="heading-image-caption">
+            1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
+            <br />
+            2nd Photo: Wikimedia, by Paul Clarke
+        </div>
+
+      </div>
 
       <!-- Heading End -->
 
@@ -119,26 +137,27 @@
     <!-- Article End -->
 
     <!-- Footer -->
-    <footer class="margin-top">
+    <footer>
       <div class="container">
-        <h2>Potrebbe interessarti</h2>
+
+        <h2 class="margin-top">Potrebbe interessarti</h2>
 
         <div class="margin-top">
 
           <div class="footer-image-square">
-            <img src="img/graph.jpg" alt="Graph">
+            <img style="max-width:50%" src="img/graph.jpg" alt="Graph">
             <div class="footer-image-square-text">
               Graph
             </div>
           </div>
 
           <div class="footer-image-square margin-top">
-            <img src="img/monitor.jpg" alt="Monitor">
-            <div class="footer-image-square-text">
-              Monitor
-            </div>
+            <img style="max-width:50%" src="img/monitor.jpg" alt="Monitor">
+            <div class="footer-image-square-text">Monitor</div>
           </div>
 
+        </div>
+        
       </div>
     </footer>
     <!-- Footer End -->
